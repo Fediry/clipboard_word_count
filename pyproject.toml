@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "word-count"
+version = "0.0.2"
+description = "A script to count the words in text that has been copied into the clipboard."
+authors = ["John Nolan <90651514+Fediry@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pyperclip = "^1.8.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
